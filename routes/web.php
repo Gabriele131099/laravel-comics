@@ -29,8 +29,6 @@ Route::get('/card/{id}', function ($id) { // id e una variabile e la inviamo all
     ]);
 })->name('card');
 
-Route::get('/card', function () {
-    return view('card');
-});
+
 
 

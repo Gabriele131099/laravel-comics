@@ -6,16 +6,24 @@
         
         @section('main')
         
-        
+        <div class="jumbotron">
+            <div class="container">
+                <div class="banner">
+
+                    CURRENT SERIES
+
+                </div>
+            </div>
+        </div>
         <div class="container-index">
             <div class="container-cards">
                 @foreach($comics as $card)
                 <div class="card">
-                <a href="/card/{{ $loop->index }}"> <!-- con loop possiamo far si che ci ritorni un certo tipo di dato in questo caso un index che inviamo alla single card -->
-                    <img src="{{$card['thumb']}}" alt="">
-                    <div class="title">
-                        {{$card['series']}}
-                    </div>
+                    <a href="/card/{{ $loop->index }}"> <!-- con loop possiamo far si che ci ritorni un certo tipo di dato in questo caso un index che inviamo alla single card -->
+                        <img src="{{$card['thumb']}}" alt="">
+                        <div class="title">
+                            {{$card['series']}}
+                        </div>
                     </a>
                 </div>
                 

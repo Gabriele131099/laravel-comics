@@ -141,3 +141,22 @@ footer li {
   color: white;
   font-weight: bold;
 }
+.thumb-banner{
+  position: absolute;
+  bottom: -40px;
+
+}
+.banner-blue{
+  background-color:rgb(83, 109, 228);
+  height: 100px;
+}
+.table-description{
+  display: flex;
+
+}
+.card-list ul{
+  list-style-type: none;
+}
+.card-list>ul{
+  width: 50%;
+}
