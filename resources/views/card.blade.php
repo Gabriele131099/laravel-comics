@@ -5,15 +5,15 @@
     <div class="jumbotron">
             <div class="container">
                 <div class="thumb-banner">
-
-                <img src="{{$comics[$id]['thumb']}}" alt="copertina dc">
-
+                    <div>
+                        <div>COMIC BOOK</div>
+                        <img src="{{$comics[$id]['thumb']}}" alt="copertina dc">
+                        <div>VIEW GALLERY</div>
+                    </div>
                 </div>
-                
             </div>
         </div>
         <div class="banner-blue">
-
     </div>
         <div class="container">
             <div class="description-card">
@@ -39,18 +39,18 @@
                 <li>Talent
                     <ul class="list">
                         <li>Art by:</li>
-                        <li >
-                        @foreach($comics[$id] as $card)
-                            {$card['artists']} ,
-                        @endforeach
+                        <li>
+                            /** non fa */
+                        
                         </li>
                     </ul>
                     <ul class="list">
                         <li>Written by:</li>
                         <li>
-                        @foreach($comics[$id] as $card)
-                            {$card['writter'] },
-                        @endforeach
+                        
+                            /**non fa */
+
+                        
                         </li>
                     </ul>
                 </li>

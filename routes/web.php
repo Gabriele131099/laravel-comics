@@ -17,15 +17,22 @@ Route::get('/', function () {
     $comics = config('comics');// abbiamo associato il nostro array ad una variabile
 
     return view('index', [  //la devi inviare alla homepage, come secondo argomento con un array
-        'comics' => $comics
+        'comics' => $comics,
+        'artists' => $comics['artists'],
+        'writers' => $comics['writers']
     ]);
 })-> name('homepage');
 Route::get('/card/{id}', function ($id) { // id e una variabile e la inviamo alla callback
     $comics = config('comics');
+    $artists = config('artists');
+    $writers = config('writers');
 
     return view('card', [
         'id' => $id, //inviamo le nostre variabili al componente che le richiamera
-        'comics' => $comics
+        'comics' => $comics,
+        'artists' => $artists,
+        'writers' => $writers
+
     ]);
 })->name('card');
 
