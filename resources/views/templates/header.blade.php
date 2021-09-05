@@ -25,6 +25,15 @@
         <button><i class="fas fa-search"></i></button>
     </div>
 </div>
+<div class="jumbotron">
+            <div class="container">
+                <div class="banner">
+
+                    CURRENT SERIES
+
+                </div>
+            </div>
+        </div>
 
 <style type="text/css">
 

@@ -20,7 +20,14 @@ Route::get('/', function () {
         'comics' => $comics
     ]);
 })-> name('homepage');
+Route::get('/card/{id}', function ($id) { // id e una variabile e la inviamo alla callback
+    $comics = config('comics');
 
+    return view('card', [
+        'id' => $id, //inviamo le nostre variabili al componente che le richiamera
+        'comics' => $comics
+    ]);
+})->name('card');
 
 Route::get('/card', function () {
     return view('card');

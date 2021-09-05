@@ -19,9 +19,7 @@
         @yield('main')
     </main>
     
-    <section>
-        @include('templates.bannerShop')
-    </section>
+
     
     <footer>
         @include('templates.footer')
