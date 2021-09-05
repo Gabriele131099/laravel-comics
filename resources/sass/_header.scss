@@ -1,0 +1,13 @@
+.list
+{
+    display: flex;
+    list-style-type: none;
+    li{
+        padding: 20px 15px;
+    }
+}
+
+.navbar{
+    display: flex;
+    align-items:center;
+}

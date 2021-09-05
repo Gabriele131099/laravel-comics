@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/** HEADER, NAV TOP E NAV*/
+.navtop{
+  background-color:rgb(83, 109, 228);
+}
+.navtop ul{
+  list-style-type: none;
+  width: 1280px;
+  text-align: right;
+  margin: auto;
+  padding: 5px;
+}
+.navtop ul li{
+  padding: 10px 15px;
+  font-size: 10px;
+  display: inline;
+  color: white;
+  font-weight: bold;
+}
+  .navbar img{
+    padding: 10px;
+  }
+  .navbar{
+      display:flex;
+      align-items:center;
+      justify-content:space-around;
+      width:1280px;
+      margin:auto;
+  }
+  .list{
+      display: flex;
+      list-style-type: none;
+  }
+  .list li{
+      padding: 0px 10px;
+      color: gray;
+      font-weight: bold;
+  }
+
+  .search input{
+    border: none;
+    border-bottom: 1px solid blue;
+    text-align: right;
+    width: 100px;
+
+    
+  }
+  button
+  {
+    border: none;
+    background-color: transparent;
+  }
+  /** BannerShop, banner */
+.container{
+  display: flex;
+  align-items: center;
+  width: 1280px;
+  margin: auto;
+  padding: 30px;
+  
+}
+
+.bannerShop{
+  background-color:rgb(83, 109, 228);
+  
+}
+.bannerShop img{
+  height: 60px;
+
+}
+.bannerShop .container div{
+  display: flex;
+  align-items: center;
+}
+span{
+  padding: 20px;
+}
+/** FOOTER*/
+.sfondo{
+  background-image:"../../img/footer-bg.jpg";
+  display: flex;
+  justify-content: space-around;
+
+}
+.footer{
+  display: flex;
+
+}
+.footer img{
+  width: 400px;
+  z-index: 1000;
+}
+.footer ul{
+  padding: 0px 50px 20px;
+  list-style-type: none;
+}
+.footer h3{
+  color: white;
+}
+footer li {
+  color: grey;
+}
+
+/** index card stampa*/
+
+.container-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  width: 1280px;
+  margin: auto;
+  padding: 50px 20px;
+}
+.card{
+  width: calc((100% / 6));
+  padding: 15px;
+  
+}
+.title{
+  color: lightgray;
+}
+.container-index{
+  background-color: rgb(20, 19, 19);
+}
+.jumbotron{
+  background: url('../img/jumbotron.jpg');
+  height:40vh;
+  position: relative;
+}
+.banner{
+  position: absolute;
+  bottom: -20px;
+  padding: 15px 10px;
+  background-color: rgb(64, 113, 143);
+  color: white;
+  font-weight: bold;
+}
