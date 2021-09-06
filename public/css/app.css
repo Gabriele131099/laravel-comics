@@ -178,6 +178,7 @@ footer li {
 }
 .textTableSecond{
   width: 30%;
+  text-align: right;
 }
 .table{
   display: flex;
@@ -192,6 +193,7 @@ footer li {
   list-style-type: none;
   border-bottom: 1px solid rgb(207, 205, 205);
 }
-.list-table>ul>li{
-  
+.adv-banner>img{
+  width: 300px;
+  height: 300px;
 }

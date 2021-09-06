@@ -36,19 +36,22 @@
         </div>
         <div class="container list-table">
             <ul>
-                <li><h2>Talent</h2>
+                <li>Talent
                     <ul class="list">
                         <li>Art by:</li>
                         <li>
-                            /** non fa */
-                        
+                           @foreach($comics[$id]['artists'] as $comicArtist)
+                            {{$comicArtist}} ,
+                           @endforeach 
                         </li>
                     </ul>
                     <ul class="list">
                         <li>Written by:</li>
                         <li>
                         
-                            /**non fa */
+                        @foreach($comics[$id]['writers'] as $comicWriter)
+                            {{$comicWriter}} ,
+                           @endforeach 
 
                         
                         </li>
@@ -56,7 +59,7 @@
                 </li>
             </ul>
             <ul>
-                <li ><h2>Specs</h2>
+                <li>Specs
                     <ul class="list">
                         <li>Series</li>
                         <li>{{$comics[$id]['series']}}</li>
