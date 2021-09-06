@@ -18,12 +18,12 @@
         <div class="container">
             <div class="description-card">
                 <h2 >{{$comics[$id]['title']}}</h2>
-                <div> 
-                    <div style="background-color:lightgreen; border:1px solid black">
-                        <span>U.S Price:{{$comics[$id]['price']}}</span>
-                        <span> avaible</span>
+                <div class="table" >
+                    <div class="verde textTableFirst">
+                        <div>U.S Price: <span class="saleText">{{$comics[$id]['price']}}</span></div>
+                        <div>AVAIBLE</div>
                     </div>
-                    <div style="background-color:lightgreen">
+                    <div class="verde textTableSecond">
                         Check Availability
                     </div>
                 </div>
@@ -34,9 +34,9 @@
                 <img src="{{$comics[$id]['thumb']}}" alt="img pubblicità">
             </div>
         </div>
-        <div class="container">
+        <div class="container list-table">
             <ul>
-                <li>Talent
+                <li><h2>Talent</h2>
                     <ul class="list">
                         <li>Art by:</li>
                         <li>
@@ -56,7 +56,7 @@
                 </li>
             </ul>
             <ul>
-                <li>Specs
+                <li ><h2>Specs</h2>
                     <ul class="list">
                         <li>Series</li>
                         <li>{{$comics[$id]['series']}}</li>

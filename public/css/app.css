@@ -160,3 +160,38 @@ footer li {
 .card-list>ul{
   width: 50%;
 }
+.verde{
+  background-color: rgb(109, 212, 109);
+}
+.verde{
+  border: 1px solid black;
+  width: 50%;
+}
+.saleText{
+  color: white;
+  font-weight: bold;
+}
+.textTableFirst{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.textTableSecond{
+  width: 30%;
+}
+.table{
+  display: flex;
+}
+.list-table{
+  display: flex;
+  align-items: stretch;
+  border: 1px solid grey;
+  background-color: lightgray;
+}
+.list-table>ul{
+  list-style-type: none;
+  border-bottom: 1px solid rgb(207, 205, 205);
+}
+.list-table>ul>li{
+  
+}
