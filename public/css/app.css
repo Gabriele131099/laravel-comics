@@ -186,14 +186,43 @@ footer li {
 .list-table{
   display: flex;
   align-items: stretch;
-  border: 1px solid grey;
   background-color: lightgray;
 }
 .list-table>ul{
-  list-style-type: none;
   border-bottom: 1px solid rgb(207, 205, 205);
+  padding: 20px;
 }
 .adv-banner>img{
   width: 300px;
   height: 300px;
+}
+
+.list-table ul{
+  list-style-type: none;
+}
+.list-table>ul>li>ul{
+  display: flex;
+  border-bottom: 1px solid gray;
+  justify-content: space-around;
+  padding: 15px 10px;
+
+}
+.list-table>ul>li>div{
+  padding: 30px 0px ;
+  font-size: 27px;
+  color: navy;
+  font-weight: bolder;
+}
+.titleTable{
+  white-space: nowrap;
+}
+.textWriters{
+  width: 80%;
+  padding: 0px 20px;
+  color: blue;
+}
+.textArtists{
+  width: 80%;
+  color: blue;
+
 }
